@@ -1,8 +1,7 @@
-import pandas as pd
+﻿import pandas as pd
 import os
 class Excel():
-    """Создаём класс для работы с входными данными Excel"""
-
+#Создаём класс для работы с входными данными Excel
     def __init__(self):
         self.table = 'excel/test_cam.xlsx'
         self.elements = pd.read_excel(self.table)
@@ -26,8 +25,12 @@ class Excel():
             # подходящей ссылки, если есть подходящая,
             # запись типа
             else:
+<<<<<<< HEAD
                 self.false_ping_list.append(ip)
     
  #   def _type_cam(self):
   #      for link in self.links_photo:
 
+=======
+                self.false_ping_list.append(i)
+>>>>>>> c864980c4275a080315905e7692f9de2456d6a2b

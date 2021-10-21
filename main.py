@@ -1,4 +1,4 @@
-from excel_handler import *
+﻿from excel_handler import *
 
 file = Excel()
 log = open('log.txt', 'w')

@@ -13,7 +13,7 @@ class Server:
         self.folderImages = "images"
         if (not os.path.exists(self.folderImages)):
             os.mkdir(self.folderImages, mode=0o644)
-            self.log("Create {} dir".format(self.folderImages))
+            self.logger("Create {} dir".format(self.folderImages))
         
     def cam_test(self):
         for ip in self.DB.list_ip:

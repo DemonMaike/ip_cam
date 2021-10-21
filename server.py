@@ -11,7 +11,7 @@ class Server:
         self.log = "error.log"
         self.proto_schema = "http://"
         self.folderImages = "images"
-        if (not os.path.exists):
+        if (not os.path.exists(self.folderImages)):
             os.mkdir(self.folderImages, mode=0o644)
             self.log("Create {} dir".format(self.folderImages))
         
